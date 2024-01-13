@@ -1,10 +1,7 @@
-/* Author: Uniseca All right reserved.*/
 #ifndef __MATRIX_H__
 #define __MATRIX_H__
 #include <bits/stdc++.h>
 using namespace std;
-// Notice: C++17 removed the keyword "register"
-//         To solve the problem, change "register int" -> "int"
 template<typename T> class Matrix{
     public:
         vector< vector<T> > matrix;
